@@ -1,16 +1,16 @@
 # Node-RED
 
-https://nodered.org
+https://phantomsw.com
 
 [![Build Status](https://github.com/node-red/node-red/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/node-red/node-red/actions?query=branch%3Amaster)
 
 Low-code programming for event-driven applications.
 
-![Node-RED: Low-code programming for event-driven applications](https://nodered.org/images/node-red-screenshot.png)
+![Node-RED: Low-code programming for event-driven applications](https://phantomsw.com/images/node-red-screenshot.png)
 
 ## Quick Start
 
-Check out https://nodered.org/docs/getting-started/ for full instructions on getting
+Check out https://phantomsw.com/docs/getting-started/ for full instructions on getting
 started.
 
 1. `sudo npm install -g --unsafe-perm node-red`
@@ -19,9 +19,9 @@ started.
 
 ## Getting Help
 
-More documentation can be found [here](https://nodered.org/docs).
+More documentation can be found [here](https://phantomsw.com/docs).
 
-For further help, or general discussion, please use the [Node-RED Forum](https://discourse.nodered.org) or [slack team](https://nodered.org/slack).
+For further help, or general discussion, please use the [Node-RED Forum](https://discourse.phantomsw.com) or [slack team](https://phantomsw.com/slack).
 
 ## Developers
 
@@ -51,7 +51,7 @@ Before raising a pull-request, please read our
 
 This project adheres to the [Contributor Covenant 1.4](http://contributor-covenant.org/version/1/4/).
  By participating, you are expected to uphold this code. Please report unacceptable
- behavior to any of the project's core team at team@nodered.org.
+ behavior to any of the project's core team at team@phantomsw.com.
 
 ## Authors
 

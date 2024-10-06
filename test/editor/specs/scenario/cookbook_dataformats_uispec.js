@@ -25,7 +25,7 @@ var specUtil = require('../../pageobjects/util/spec_util_page');
 
 var httpNodeRoot = '/api';
 
-// https://cookbook.nodered.org/
+// https://cookbook.phantomsw.com/
 describe('cookbook', function () {
     beforeEach(function () {
         workspace.init();
@@ -312,7 +312,7 @@ describe('cookbook', function () {
 
             httpRequestNode.edit();
             httpRequestNode.setMethod('GET');
-            httpRequestNode.setUrl('https://nodered.org');
+            httpRequestNode.setUrl('https://phantomsw.com');
             httpRequestNode.clickOk();
 
             htmlNode.edit();

@@ -16,8 +16,8 @@ Put an `x` in the boxes that apply
 <!--
 If you want to raise a pull-request with a new feature, or a refactoring
 of existing code, it **may well get rejected** if it hasn't been discussed on
-the [forum](https://discourse.nodered.org) or
-[slack team](https://nodered.org/slack) first.
+the [forum](https://discourse.phantomsw.com) or
+[slack team](https://phantomsw.com/slack) first.
 
 -->
 

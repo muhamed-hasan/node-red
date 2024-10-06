@@ -98,7 +98,7 @@ describe("api/editor/theme", function () {
                 },
                 header: {
                     title: "Test Header Title",
-                    url: "https://nodered.org",
+                    url: "https://phantomsw.com",
                     image: "/absolute/path/to/header/image" // or null to remove image
                 },
 
@@ -126,7 +126,7 @@ describe("api/editor/theme", function () {
 
                 palette: {
                     editable: true,
-                    catalogues: ['https://catalogue.nodered.org/catalogue.json'],
+                    catalogues: ['https://catalogue.phantomsw.com/catalogue.json'],
                     theme: [{ category: ".*", type: ".*", color: "#f0f" }]
                 },
 
@@ -147,7 +147,7 @@ describe("api/editor/theme", function () {
         context.page.tabicon.should.have.a.property("colour", "#8f008f")
         context.should.have.a.property("header");
         context.header.should.have.a.property("title", "Test Header Title");
-        context.header.should.have.a.property("url", "https://nodered.org");
+        context.header.should.have.a.property("url", "https://phantomsw.com");
         context.header.should.have.a.property("image", "theme/header/image");
         context.page.should.have.a.property("css");
         context.page.css.should.have.lengthOf(1);
@@ -172,7 +172,7 @@ describe("api/editor/theme", function () {
         settings.menu.should.have.a.property("menu-item-help", { label: "Alternative Help Link Text", url: "http://example.com" });
         settings.should.have.a.property("palette");
         settings.palette.should.have.a.property("editable", true);
-        settings.palette.should.have.a.property("catalogues", ['https://catalogue.nodered.org/catalogue.json']);
+        settings.palette.should.have.a.property("catalogues", ['https://catalogue.phantomsw.com/catalogue.json']);
         settings.palette.should.have.a.property("theme", [{ category: ".*", type: ".*", color: "#f0f" }]);
         settings.should.have.a.property("projects");
         settings.projects.should.have.a.property("enabled", false);

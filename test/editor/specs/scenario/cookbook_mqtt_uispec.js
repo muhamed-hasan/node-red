@@ -35,7 +35,7 @@ var moscaSettings = {
     }
 };
 
-// https://cookbook.nodered.org/
+// https://cookbook.phantomsw.com/
 describe('cookbook', function () {
     beforeEach(function () {
         workspace.init();

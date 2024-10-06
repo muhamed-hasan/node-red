@@ -22,7 +22,7 @@ var workspace = require('../../pageobjects/editor/workspace_page');
 
 var httpNodeRoot = "/api";
 
-// https://cookbook.nodered.org/
+// https://cookbook.phantomsw.com/
 describe('cookbook', function () {
     beforeEach(function () {
         workspace.init();
